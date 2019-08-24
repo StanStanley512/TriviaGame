@@ -1,1 +1,45 @@
-TriviaGame.css
+body {
+    background-image: url("https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-toy-story-4.jpg");
+
+}
+
+.choice {
+    border: 5px solid yellow;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: Yellow;
+    background-color: red;
+    width: 250px;
+    position: center;
+}
+
+#time {
+    border: 5px solid red;
+    text-align: center;
+    background-color: rgb(47, 195, 253);
+    color: yellow;
+    margin: 5px;
+}
+
+.title-row {
+    border: 5px solid blue;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align:center;
+    color: Yellow;
+    background-color: red;
+}
+
+#game {
+    border: 5px solid red;
+    text-align: center;
+    background-color: rgb(47, 195, 253);
+    color: yellow;
+    margin: 5px;
+}
+
+#choices {
+    text-align: center;
+}
