@@ -172,12 +172,16 @@ $(document).on('click', '.choice', function () {
         score++;
         preloadImage('win')
         setTimeout(nextQuestion, 3 * 1000);
-        console.log('win');
+        //$('#choices').remove();
+        //choices.style.display = none;
+        //$(choices).visibility = none;
     } else {
         lost++;
         preloadImage('lost')
         setTimeout(nextQuestion, 3 * 1000);
-        console.log('lost');
+         //$('#choices').remove();
+        //choices.style.display = none;
+        //$(choices).visibility = none;
     }
 
     console.log(selectedAnswer);
